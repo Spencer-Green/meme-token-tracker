@@ -5,6 +5,8 @@
 This project is a Python-based system designed to monitor the price of cryptocurrencies and send SMS alerts when significant price changes occur. 
 It utilizes the Dex Screener API for real-time price data and Twilio's API for sending SMS notifications. I am tracking a particular meme token but you can edit the API call to track any token you like, or even multiple tokens. You could even edit this to track stock prices and be notified via text by changing the API. 
 
+I am going to eventually set this up via a VPS to have it running continously as I track tokens I am invested in. Once I am sufficiently satisified with the testing and reliability, I will then add a feature which automatically buys and sells at designated price points. 
+
 ## Features
 
 - **Real-Time Price Monitoring**: Fetches the latest cryptocurrency prices from the Dex Screener API.
